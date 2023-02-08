@@ -14,3 +14,8 @@ img {
     width: 400px;
     height: auto;
 }
+
+p {
+    padding: 0 5%;
+    text-align: justify;
+}
