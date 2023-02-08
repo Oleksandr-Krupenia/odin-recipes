@@ -1,21 +1,42 @@
 body {
-    background-color: #f5f6ea;
-    font-family: CopperPot,Helvetica,sans-serif;
+  background-color: #f5f6ea;
+  font-family: CopperPot, Helvetica, sans-serif;
 }
 
-h1, h2 {
-    font-weight: 700;
-    text-align: center;
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
 }
 
 img {
-    display: block;
-    margin: auto;
-    width: 400px;
-    height: auto;
+  display: block;
+  margin: auto;
+  width: 400px;
+  height: auto;
 }
 
 p {
-    padding: 0 5%;
-    text-align: justify;
+  padding: 0 5%;
+  text-align: justify;
+}
+
+div.list-container {
+  text-align: center;
+}
+ul {
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+}
+
+ul li a {
+  color: #000;
+  font-weight: 600;
+}
+
+ul li::before {
+  content: "\2022";
+  color: #e7ab46;
+  padding-right: 1em;
 }
