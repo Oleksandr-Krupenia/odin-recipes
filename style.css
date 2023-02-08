@@ -2,3 +2,8 @@ body {
     background-color: #f5f6ea;
     font-family: CopperPot,Helvetica,sans-serif;
 }
+
+h1, h2 {
+    font-weight: 700;
+    text-align: center;
+}
